@@ -1,13 +1,23 @@
+import '../../index.css';
 function Intro() {
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-5xl font-bold">Hello, It's me Arttu! 👋</h1>
-      <p className="gap-4">
-        I'am a IT student from Jyväskylä, Finland. On my studies i have focused
-        on fullstack developing , so i have knowledge of backend and frontend
-        coding.
-      </p>
-    </div>
+    <>
+      <div className="flex justify-start items-start ">
+        <h1 className="text-5xl font-bold mt-20 p-3">
+          Hello, It's me Arttu! <span className="wave">👋</span>
+        </h1>
+      </div>
+      <div className="mt-12 p-3">
+        <p>
+          I'am a IT studet at the University of Applied Sciences in Jyväskylä.
+        </p>
+        <p>
+          I have focused my studies on fullstack development, so i have
+          knowledge in both <span className="text-yellow-500">frontend</span>{' '}
+          and <span className="text-blue-500">backend</span>.
+        </p>
+      </div>
+    </>
   );
 }
 
