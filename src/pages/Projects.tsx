@@ -1,12 +1,12 @@
 // Projects.tsx
 import React from 'react';
+//import RepoCard from '../components/projects/RepoCard';
 
 const Projects: React.FC = () => {
   return (
-    <div>
-      <h1>My Projects</h1>
-      <p>This page showcases my projects.</p>
-    </div>
+    <>
+      <p>Ebens lol</p>
+    </>
   );
 };
 
