@@ -24,10 +24,7 @@ function Intro() {
         <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-4 text-center">
           {greeting}
         </h1>
-
-        {/* Main container with flex row layout */}
         <div className="flex flex-col md:flex-row items-center mt-12 max-w-4xl w-full">
-          {/* Left column for text content */}
           <div className="flex flex-col items-start md:items-start md:w-2/3 text-gray-700 space-y-4 p-6">
             <h1 className="text-5xl font-extrabold text-gray-900 text-center md:text-left">
               Hi, It's me Arttu! <span className="wave">👋</span>
