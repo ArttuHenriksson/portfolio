@@ -1,12 +1,14 @@
 // About.tsx
 import React from 'react';
+import TechStack from '../components/about/TechStack';
 
 const About: React.FC = () => {
   return (
-    <div className="flex justify-center">
-      <h1>About Me</h1>
-      <p>This is the about page where you can learn more about me.</p>
-    </div>
+    <>
+      <div className="flex justify-center">
+        <TechStack />
+      </div>
+    </>
   );
 };
 

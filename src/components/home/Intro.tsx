@@ -20,7 +20,7 @@ function Intro() {
 
   return (
     <>
-      <div className="flex flex-col items-center bg-gray-100 min-h-screen p-6">
+      <div className="flex flex-col items-center bg-gray-100 min-h-screen p-12">
         <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-4 text-center">
           {greeting}
         </h1>
@@ -33,7 +33,7 @@ function Intro() {
               I'm a third year business information technology student at the
               JAMK University of Applied Sciences.
             </p>
-            <p className="text-lg bg-slate-300 p-4 rounded-lg">
+            <p className="text-lg bg-gray-200 p-4 rounded-lg">
               My studies are oriented towards fullstack development, so I have
               knowledge of{' '}
               <span className="text-yellow-500 font-semibold">frontend</span>{' '}
@@ -41,7 +41,7 @@ function Intro() {
               But if I had to choose between coding the frontend or the backend,
               I would choose the backend.
             </p>
-            <p className="text-lg bg-slate-300 p-4 rounded-lg">
+            <p className="text-lg bg-gray-200 p-4 rounded-lg">
               I am <span className="font-semibold">23</span> years old,
               originally from southern Finland. But moved to Jyväskylä for
               studies. I've always had a passion for both sports and IT.
