@@ -1,32 +1,34 @@
 export function getGoodMorningGreeting() {
   const greetings = [
-    'Rise and shine, sleepyhead!',
-    'Wakey wakey, eggs and bakey!',
-    'Time to face the day, sunshine!',
-    "Up and at 'em, bright eyes!",
     'Good morning, you glorious morning person!',
+    'Rise and shine, you radiant morning star!',
+    'Top of the morning to you, sunshine!',
+    'Wishing you a fantastic start to the day, you morning legend!',
+    'Good morning, you unstoppable dawn dynamo!',
   ];
   return greetings[Math.floor(Math.random() * greetings.length)];
 }
 
 export function getGoodAfternoonGreeting() {
   const greetings = [
-    'Look who decided to join us in the land of the living!',
-    "Well, well, well, if it isn't my favorite afternoon delight.",
     'Afternoon, you magnificent creature!',
     'Good day, you afternoon champion!',
     'Salutations, you midday marvel!',
+    'Hello, you afternoon wonder!',
+    'Hope your afternoon is as amazing as you are!',
+    'Good afternoon, you blazing afternoon beacon!',
   ];
   return greetings[Math.floor(Math.random() * greetings.length)];
 }
 
 export function getGoodEveningGreeting() {
   const greetings = [
-    "Ahh, there's the evening enchanter!",
     'Good evening, you dazzling nighthawk!',
     "Well, if it isn't my favorite evening enthusiast.",
     'Evening, you glorious twilight titan!',
     'Greetings, you magnificent moonlit marvel!',
+    'Good evening, you spectacular starlit soul!',
+    'Nightfall greetings, you fabulous evening explorer!',
   ];
   return greetings[Math.floor(Math.random() * greetings.length)];
 }
