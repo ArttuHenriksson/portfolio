@@ -15,9 +15,16 @@ import redhat from '../images/techs/redhat.svg';
 import cSharp from '../images/techs/Csharp.svg';
 import vuejs from '../images/techs/vuejs.svg';
 import redux from '../images/techs/redux.svg';
+import firebase from '../images/techs/firebase.svg';
+import serverless from '../images/techs/serverless-icon.svg';
+import figma from '../images/techs/figma.svg';
+import nestjs from '../images/techs/nestjs.svg';
+import cypress from '../images/techs/cypress.svg';
+import grahpql from '../images/techs/graphql.svg';
+import nodejs from '../images/techs/nodejs.svg';
 type Tech = {
   name: string;
-  logo?: string;
+  logo: string;
 };
 
 const techStack: Tech[] = [
@@ -28,7 +35,7 @@ const techStack: Tech[] = [
   { name: 'MongoDB', logo: mongodb },
   { name: 'MySQL', logo: mysql },
   { name: 'Angular', logo: angular },
-  { name: 'Redhat', logo: redhat },
+  { name: 'Red Hat', logo: redhat },
   { name: 'Neo4j', logo: neo4j },
   { name: 'PHP', logo: php },
   { name: 'Javascript', logo: javascript },
@@ -38,6 +45,13 @@ const techStack: Tech[] = [
   { name: 'C#', logo: cSharp },
   { name: 'Vue.js', logo: vuejs },
   { name: 'Redux', logo: redux },
+  { name: 'Firebase', logo: firebase },
+  { name: 'Serverless', logo: serverless },
+  { name: 'Figma', logo: figma },
+  { name: 'NestJS', logo: nestjs },
+  { name: 'Cypress', logo: cypress },
+  { name: 'GraphQL', logo: grahpql },
+  { name: 'NodeJS', logo: nodejs },
 ];
 
 export default techStack;

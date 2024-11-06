@@ -6,7 +6,7 @@ const TechStack: React.FC = () => {
     // animate-infinite-scroll
     <div className="text-center p-6">
       <h2 className="text-3xl font-semibold mb-6">My Tech Stack</h2>
-      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto  ">
+      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto ">
         {techStack.map((tech) => (
           <div
             key={tech.name}
