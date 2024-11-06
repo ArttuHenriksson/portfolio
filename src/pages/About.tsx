@@ -1,13 +1,15 @@
 // About.tsx
 import React from 'react';
 import TechStack from '../components/about/TechStack';
+//import Hero from '../components/about/Hero';
 
 const About: React.FC = () => {
   return (
     <>
-      <div className="flex justify-center">
-        <TechStack />
-      </div>
+      {/* <div>
+        <Hero />
+      </div> */}
+      <TechStack />
     </>
   );
 };

@@ -4,7 +4,7 @@ import { FaRegUser } from 'react-icons/fa6';
 import { IoTelescopeOutline } from 'react-icons/io5';
 function Header() {
   return (
-    <header className="sticky top-0 w-full position-fixed p-4 z-10">
+    <header className="sticky top-0 w-full position-fixed p-4  bg-slate-300">
       <nav className="flex justify-center text-center">
         <ul className="flex gap-12">
           <li>

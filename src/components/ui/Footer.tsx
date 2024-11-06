@@ -4,7 +4,7 @@ import { BsLinkedin } from 'react-icons/bs';
 
 function Footer() {
   return (
-    <footer className="fixed bottom-0 w-full  p-4">
+    <footer className="fixed bottom-0 w-full bg-slate-300 p-4">
       <div className="container mx-auto text-black flex justify-between items-center">
         <p>
           <span className="font-bold">&copy; </span>

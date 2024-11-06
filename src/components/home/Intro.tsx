@@ -21,7 +21,7 @@ function Intro() {
   return (
     <>
       <div className="flex flex-col items-center bg-gray-100 min-h-screen p-12">
-        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-4 text-center">
+        <h1 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-4 text-center mt-5">
           {greeting}
         </h1>
         <div className="flex flex-col md:flex-row items-center mt-12 max-w-4xl w-full">

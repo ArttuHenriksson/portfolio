@@ -4,8 +4,7 @@ import '../../index.css';
 const TechStack: React.FC = () => {
   return (
     // animate-infinite-scroll
-    <div className="text-center p-6">
-      <h2 className="text-3xl font-semibold mb-6">My Tech Stack</h2>
+    <div className="text-center p-6 flex flex-col items-center mt-24">
       <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto ">
         {techStack.map((tech) => (
           <div
@@ -23,7 +22,7 @@ const TechStack: React.FC = () => {
           </div>
         ))}
       </div>
-      <p className="text-base text-gray-500 mt-6">
+      <p className="text-base text-gray-500 mt-5 ">
         I'am not afraid to learn new things! 🫡
       </p>
     </div>
