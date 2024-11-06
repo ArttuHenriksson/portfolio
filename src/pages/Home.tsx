@@ -4,7 +4,9 @@ import Intro from '../components/home/Intro';
 const Home: React.FC = () => {
   return (
     <>
-      <Intro />
+      <div className="flex flex-col items-center  ">
+        <Intro />
+      </div>
     </>
   );
 };

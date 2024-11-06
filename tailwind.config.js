@@ -10,13 +10,13 @@ export default {
       },
       keyframes: {
         'infinite-scroll': {
-          '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-100%)' },
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         },
       },
     },
     animation: {
-      'infinite-scroll': 'infinite-scroll 5s linear infinite',
+      'infinite-scroll': 'infinite-scroll 25s linear infinite',
     },
   },
   plugins: [],

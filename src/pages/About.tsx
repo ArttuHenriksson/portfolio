@@ -6,9 +6,6 @@ import TechStack from '../components/about/TechStack';
 const About: React.FC = () => {
   return (
     <>
-      {/* <div>
-        <Hero />
-      </div> */}
       <TechStack />
     </>
   );

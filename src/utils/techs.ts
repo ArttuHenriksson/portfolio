@@ -11,7 +11,7 @@ import javascript from '../images/techs/javascript.svg';
 import typescript from '../images/techs/typescript.svg';
 import neo4j from '../images/techs/neo4j.svg';
 import docker from '../images/techs/docker.svg';
-import redhat from '../images/techs/redhat.svg';
+
 import cSharp from '../images/techs/Csharp.svg';
 import vuejs from '../images/techs/vuejs.svg';
 import redux from '../images/techs/redux.svg';
@@ -22,6 +22,8 @@ import nestjs from '../images/techs/nestjs.svg';
 import cypress from '../images/techs/cypress.svg';
 import grahpql from '../images/techs/graphql.svg';
 import nodejs from '../images/techs/nodejs.svg';
+import tailwind from '../images/techs/tailwind.svg';
+
 type Tech = {
   name: string;
   logo: string;
@@ -35,7 +37,6 @@ const techStack: Tech[] = [
   { name: 'MongoDB', logo: mongodb },
   { name: 'MySQL', logo: mysql },
   { name: 'Angular', logo: angular },
-  { name: 'Red Hat', logo: redhat },
   { name: 'Neo4j', logo: neo4j },
   { name: 'PHP', logo: php },
   { name: 'Javascript', logo: javascript },
@@ -52,6 +53,7 @@ const techStack: Tech[] = [
   { name: 'Cypress', logo: cypress },
   { name: 'GraphQL', logo: grahpql },
   { name: 'NodeJS', logo: nodejs },
+  { name: 'Tailwind', logo: tailwind },
 ];
 
 export default techStack;
