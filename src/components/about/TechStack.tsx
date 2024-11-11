@@ -4,25 +4,26 @@ import '../../index.css';
 
 const TechStack: React.FC = () => {
   return (
-    <div className="text-center p-32 flex flex-col items-center ">
-      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+    <div className="text-center p-12 flex flex-col items-center">
+      <h3 className="text-white text-2xl mt-8 gap-3">My tech stack!</h3>
+      <div className="flex flex-wrap justify-center gap-2 max-w-5xl mx-auto mt-4">
         {techStack.map((tech) => (
           <div
             key={tech.name}
-            className="flex items-center gap-2 bg-gray-700 text-gray-200 p-4 rounded-full shadow-md transition-transform transform hover:scale-105"
+            className="flex items-center gap-1 text-white p-2  bg-slate-500 rounded-md shadow-sm transition-transform transform hover:scale-105"
           >
             {tech.logo && (
               <img
                 src={tech.logo}
                 alt={`${tech.name} logo`}
-                className="w-8 h-8"
+                className="w-6 h-6"
               />
             )}
-            <span className="text-sm font-medium">{tech.name}</span>
+            <span className="text-xs font-medium">{tech.name}</span>
           </div>
         ))}
       </div>
-      <p className="text-base text-gray-400 mt-5">
+      <p className="text-sm text-gray-400 mt-2">
         I'm not afraid to learn new things! 🫡
       </p>
     </div>

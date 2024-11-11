@@ -23,6 +23,9 @@ import cypress from '../images/techs/cypress.svg';
 import grahpql from '../images/techs/graphql.svg';
 import nodejs from '../images/techs/nodejs.svg';
 import tailwind from '../images/techs/tailwind.svg';
+import dynamodb from '../images/techs/DynamoDB.svg';
+import lambda from '../images/techs/lambda.svg';
+import mocha from '../images/techs/mocha.svg';
 
 type Tech = {
   name: string;
@@ -34,26 +37,29 @@ const techStack: Tech[] = [
   { name: 'Next.js', logo: nextjs },
   { name: 'React', logo: react },
   { name: 'Svelte', logo: svelte },
+  { name: 'Angular', logo: angular },
+  { name: 'Vue.js', logo: vuejs },
   { name: 'MongoDB', logo: mongodb },
   { name: 'MySQL', logo: mysql },
-  { name: 'Angular', logo: angular },
   { name: 'Neo4j', logo: neo4j },
+  { name: 'GraphQL', logo: grahpql },
+  { name: 'Firebase', logo: firebase },
   { name: 'PHP', logo: php },
   { name: 'Javascript', logo: javascript },
   { name: 'Typescript', logo: typescript },
+  { name: 'C#', logo: cSharp },
   { name: 'Docker', logo: docker },
   { name: 'Openshift', logo: openshift },
-  { name: 'C#', logo: cSharp },
-  { name: 'Vue.js', logo: vuejs },
   { name: 'Redux', logo: redux },
-  { name: 'Firebase', logo: firebase },
   { name: 'Serverless', logo: serverless },
   { name: 'Figma', logo: figma },
   { name: 'NestJS', logo: nestjs },
   { name: 'Cypress', logo: cypress },
-  { name: 'GraphQL', logo: grahpql },
+  { name: 'Mocha', logo: mocha },
   { name: 'NodeJS', logo: nodejs },
   { name: 'Tailwind', logo: tailwind },
+  { name: 'DynamoDB', logo: dynamodb },
+  { name: 'Lambda', logo: lambda },
 ];
 
 export default techStack;
