@@ -4,13 +4,13 @@ import { FaRegUser } from 'react-icons/fa6';
 import { IoTelescopeOutline } from 'react-icons/io5';
 function Header() {
   return (
-    <header className="sticky top-0 w-full position-fixed p-4  bg-slate-300">
+    <header className="fixed top-0 left-0 w-full text-white p-4 z-100">
       <nav className="flex justify-center text-center">
         <ul className="flex gap-12">
           <li>
             <Link
               to="/"
-              className="text-black hover:text-gray-300 flex items-center gap-1"
+              className=" hover:text-gray-300 flex items-center gap-1"
             >
               <IoHomeSharp size={22} />
               Home
@@ -19,7 +19,7 @@ function Header() {
           <li>
             <Link
               to="/about"
-              className="text-black hover:text-gray-300 flex items-center gap-1"
+              className=" hover:text-gray-300 flex items-center gap-1"
             >
               <FaRegUser size={22} />
               About
@@ -28,7 +28,7 @@ function Header() {
           <li>
             <Link
               to="/projects"
-              className="text-black hover:text-gray-300 flex items-center gap-1"
+              className=" hover:text-gray-300 flex items-center gap-1"
             >
               <IoTelescopeOutline size={22} /> Projects
             </Link>

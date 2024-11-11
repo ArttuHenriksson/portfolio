@@ -1,15 +1,15 @@
 import techStack from '../../utils/techs';
 import React from 'react';
 import '../../index.css';
+
 const TechStack: React.FC = () => {
   return (
-    // animate-infinite-scroll
-    <div className="text-center p-6 flex flex-col items-center ">
-      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto ">
+    <div className="text-center p-32 flex flex-col items-center ">
+      <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
         {techStack.map((tech) => (
           <div
             key={tech.name}
-            className=" flex items-center gap-2 bg-gray-200 p-4 rounded-full shadow-md transition-transform transform hover:scale-105"
+            className="flex items-center gap-2 bg-gray-700 text-gray-200 p-4 rounded-full shadow-md transition-transform transform hover:scale-105"
           >
             {tech.logo && (
               <img
@@ -18,12 +18,12 @@ const TechStack: React.FC = () => {
                 className="w-8 h-8"
               />
             )}
-            <span className="text-sm font-medium ">{tech.name}</span>
+            <span className="text-sm font-medium">{tech.name}</span>
           </div>
         ))}
       </div>
-      <p className="text-base text-gray-500 mt-5 ">
-        I'am not afraid to learn new things! 🫡
+      <p className="text-base text-gray-400 mt-5">
+        I'm not afraid to learn new things! 🫡
       </p>
     </div>
   );

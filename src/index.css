@@ -4,6 +4,42 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  background-image: linear-gradient(to bottom right, #0c0c0c, #1a1a1a, #333333);
+}
+
+body {
+  @apply overflow-x-hidden;
+}
+
+main {
+  @apply h-screen w-screen;
+}
+
+element {
+  width: none;
+}
+
+/* Card flip animation */
+.card {
+  perspective: 800px;
+}
+.card__content {
+  transform-style: preserve-3d;
+}
+.card:hover .card__content {
+  transform: rotateY(0.5turn);
+}
+
+.card__front,
+.card__back {
+  backface-visibility: hidden;
+}
+.card__back {
+  transform: rotateY(0.5turn);
+}
+
+/* Wave animation */
 .wave {
   display: inline-block;
   animation: wave 3s infinite;
