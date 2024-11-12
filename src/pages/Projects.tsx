@@ -1,9 +1,13 @@
 // Projects.tsx
 import React from 'react';
-//import RepoCard from '../components/projects/RepoCard';
+import RepoCard from '../components/projects/RepoCard';
 
 const Projects: React.FC = () => {
-  return <></>;
+  return (
+    <>
+      <RepoCard />
+    </>
+  );
 };
 
 export default Projects;
