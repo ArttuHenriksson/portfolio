@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 :root {
-  background-image: linear-gradient(to bottom right, #1c1c1c, #1a1a1a, #232323);
+  background-image: linear-gradient(to bottom right, #191f22, #0d0c0b, #232323);
 }
 
 body {

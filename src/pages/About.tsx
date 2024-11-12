@@ -9,7 +9,7 @@ const About: React.FC = () => {
       <div className="justify-center text-center mt-20">
         <Hero />
       </div>
-      <div>
+      <div className="mt-20">
         <TechStack />
       </div>
     </div>

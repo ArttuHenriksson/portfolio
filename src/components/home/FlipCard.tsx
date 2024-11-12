@@ -5,9 +5,7 @@ function FlipCard() {
   return (
     <div className="flex justify-center items-center py-10">
       <div className="card w-80 h-96 relative perspective">
-        {/* Card Content with Flip Animation */}
         <div className="card__content relative w-full h-full text-center transition-transform duration-1000 transform-style-3d group hover:rotate-y-180">
-          {/* Front Side */}
           <div className="card__front absolute w-full h-full backface-hidden  rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
             <img
               src={arttuhImage}
@@ -15,10 +13,13 @@ function FlipCard() {
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-
-          {/* Back Side */}
           <div className="card__back absolute w-full h-full bg-gray-800 text-white p-8 rounded-lg shadow-lg flex items-center justify-center rotate-y-180 backface-hidden">
-            <p>joo perus</p>
+            <ul>
+              <li>23 years old</li>
+              <li>From southern Finland</li>
+              <li>Sport enthusiast</li>
+              <li>Gamer</li>
+            </ul>
           </div>
         </div>
       </div>

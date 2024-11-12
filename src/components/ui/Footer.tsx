@@ -3,12 +3,13 @@ import { BsTwitterX } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="fixed bottom-0 w-full text-white p-4">
       <div className="container mx-auto  flex justify-between items-center ">
         <p>
           <span className="font-bold">&copy; </span>
-          Arttu Henriksson 2024
+          Arttu Henriksson | {currentYear}
         </p>
         <div className="flex space-x-4">
           <a

@@ -24,28 +24,35 @@ function Intro() {
         {greeting}
       </h1>
       <div className="flex flex-col md:flex-row items-center mt-12 max-w-4xl w-full">
-        {/* Left Section: Text Content */}
         <div className="flex flex-col md:w-2/3 space-y-6 p-6">
           <h1 className="text-5xl font-extrabold text-center md:text-left">
             Hi, It's me Arttu! <span className="wave">👋</span>
           </h1>
-
-          {/* Inline Text Section */}
           <div className="flex flex-wrap gap-2 text-lg md:text-xl">
             <p>
-              I'm a third year business information technology student at the
-              JAMK University of Applied Sciences.
+              I am a third-year Business Information Technology student at {''}
+              <span className="font-semibold">
+                JAMK University of Applied Sciences
+              </span>
+              , specializing in{' '}
+              <span className="text-yellow-500 font-semibold">
+                Fullstack Development
+              </span>
+              .
             </p>
             <p>
-              My studies are oriented towards fullstack development, so I have
-              knowledge of{' '}
+              My skillset spans both{' '}
               <span className="text-yellow-500 font-semibold">frontend</span>{' '}
-              and <span className="text-blue-500 font-semibold">backend</span>.
+              and <span className="text-blue-500 font-semibold">backend</span>{' '}
+              technologies, giving me a comprehensive understanding of fullstack
+              development.
             </p>
             <p>
-              But if I had to choose between coding the frontend or the backend,
-              I would choose the backend.
+              However, if I had to choose, I’d focus on backend development
+              where my passion truly lies.
             </p>
+
+            <p>Psst.. try to hover over me!</p>
           </div>
         </div>
         <FlipCard />
