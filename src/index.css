@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 :root {
-  background-image: linear-gradient(to bottom right, #191f22, #0d0c0b, #232323);
+  --background-gradient: linear-gradient(135deg, #191f22, #252525, #0f0e0d);
+}
+
+body {
+  background: var(--background-gradient);
 }
 
 body {
@@ -21,12 +25,17 @@ element {
 }
 
 /* Card flip animation */
+
 .card {
   perspective: 800px;
+  will-change: box-shadow;
 }
+
 .card__content {
   transform-style: preserve-3d;
+  transition: transform 0.6s ease;
 }
+
 .card:hover .card__content {
   transform: rotateY(0.5turn);
 }
@@ -35,8 +44,10 @@ element {
 .card__back {
   backface-visibility: hidden;
 }
+
 .card__back {
   transform: rotateY(0.5turn);
+  background: linear-gradient(to bottom right, #191f22, #0d0c0b, #232323);
 }
 
 /* Wave animation */
@@ -71,4 +82,9 @@ element {
   100% {
     transform: rotate(0deg);
   }
+}
+
+/*Div's */
+.about {
+  background: linear-gradient(to bottom right, #191f22, #0d0c0b, #232323);
 }
