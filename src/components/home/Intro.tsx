@@ -10,7 +10,7 @@ function Intro() {
   const currentHour = new Date().getHours();
   let greeting;
 
-  if (currentHour < 12) {
+  if (currentHour < 11) {
     greeting = getGoodMorningGreeting();
   } else if (currentHour < 18) {
     greeting = getGoodAfternoonGreeting();
