@@ -26,6 +26,7 @@ import tailwind from '../images/techs/tailwind.svg';
 import dynamodb from '../images/techs/DynamoDB.svg';
 import lambda from '../images/techs/lambda.svg';
 import mocha from '../images/techs/mocha.svg';
+import ansible from '../images/techs/ansible.svg';
 
 type Tech = {
   name: string;
@@ -50,6 +51,7 @@ const techStack: Tech[] = [
   { name: 'C#', logo: cSharp },
   { name: 'Docker', logo: docker },
   { name: 'Openshift', logo: openshift },
+  { name: 'Ansible', logo: ansible },
   { name: 'Redux', logo: redux },
   { name: 'Serverless', logo: serverless },
   { name: 'Figma', logo: figma },
