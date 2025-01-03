@@ -4,7 +4,7 @@ const projects: Project[] = [
   {
     name: 'Packy',
     description:
-      'JAMK PACKY is a web application that provides tools to help developers finding and realizing the technologies necessary for their own applications',
+      'Tool to help developers finding and realizing the technologies necessary for their own applications',
     url: 'https://jamk-packy.netlify.app/',
     github_url: 'https://github.com/jamktiko/PACKY',
     techs: ['Next.js', 'Tailwind', 'Typescript', 'Redux', 'Neo4j'],
