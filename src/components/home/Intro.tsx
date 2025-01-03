@@ -20,9 +20,9 @@ function Intro() {
 
   return (
     <div className="flex flex-col items-center min-h-screen p-12 text-white">
-      <h1 className="text-3xl md:text-4xl font-semibold mb-4 text-center mt-12">
+      <div className="text-5xl font-semibold mb-4 text-center mt-12">
         {greeting}
-      </h1>
+      </div>
       <div className="flex flex-col md:flex-row items-center mt-12 max-w-4xl w-full">
         <div className="flex flex-col md:w-2/3 space-y-6 p-6">
           <h1 className="text-5xl font-extrabold text-center md:text-left">
