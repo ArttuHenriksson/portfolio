@@ -9,17 +9,19 @@ import Projects from './pages/Projects';
 
 const App: React.FC = () => {
   return (
-    <>
+    <div className="flex flex-col min-h-screen bg-zinc-900 relative">
       <Header />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </main>
-      <Footer />
-    </>
+      <div className="flex-1 relative">
+        <main className="flex-1 px-4 mt-16 mb-16">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </div>
   );
 };
 

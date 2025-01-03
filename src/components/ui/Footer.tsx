@@ -5,8 +5,8 @@ import { BsLinkedin } from 'react-icons/bs';
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="fixed bottom-0 w-full text-white p-4">
-      <div className="container mx-auto  flex justify-between items-center ">
+    <footer className="fixed bottom-0 left-0 w-full bg-zinc-900 text-white p-4 z-50">
+      <div className="container mx-auto flex justify-between items-center">
         <p>
           <span className="font-bold">&copy; </span>
           Arttu Henriksson | {currentYear}
