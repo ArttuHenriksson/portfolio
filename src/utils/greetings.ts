@@ -13,7 +13,6 @@ export function getGoodAfternoonGreeting() {
   const greetings = [
     'Good afternoon!',
     'Hope you’re having a great afternoon!',
-    'Hello, good afternoon!',
     'Wishing you a pleasant afternoon!',
     'Good afternoon, enjoy the rest of your day!',
   ];
@@ -24,7 +23,6 @@ export function getGoodEveningGreeting() {
   const greetings = [
     'Good evening!',
     'Hope you had a great day!',
-    'Evening, how was your day?',
     'Good evening, relax and unwind!',
     'Good evening, enjoy your night!',
   ];
