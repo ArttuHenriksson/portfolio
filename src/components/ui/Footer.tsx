@@ -1,5 +1,4 @@
 import { BsInstagram } from 'react-icons/bs';
-import { BsTwitterX } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 
 function Footer() {
@@ -27,14 +26,6 @@ function Footer() {
             className="hover:text-pink-500 transition-colors duration-300"
           >
             <BsInstagram size={24} />
-          </a>
-          <a
-            href="https://x.com/ArttuHenriksson"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-black transition-colors duration-300"
-          >
-            <BsTwitterX size={24} />
           </a>
         </div>
       </div>
