@@ -16,7 +16,8 @@ function FlipCard() {
           <div className="card__back absolute w-full h-full bg-gradient-to-br  text-white p-8 rounded-lg shadow-lg flex items-center justify-center rotate-y-180 backface-hidden">
             <ul>
               <li>23 years old</li>
-              <li>From southern Finland</li>
+              <li>Living in Helsinki</li>
+              <li>Tech enthusiast</li>
               <li>Sport enthusiast</li>
               <li>Gamer</li>
             </ul>
