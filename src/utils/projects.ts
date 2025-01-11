@@ -28,6 +28,13 @@ const projects: Project[] = [
     github_url: 'https://github.com/ArttuHenriksson/pokedex',
     techs: ['Svelte', 'Tailwind', 'PokeAPI'],
   },
+  {
+    name: 'NFL-Data',
+    description:
+      'Svelte project where I use balldontlie API to fetch players and teams',
+    github_url: 'https://github.com/ArttuHenriksson/NFL-Data',
+    techs: ['Svelte', 'Tailwind', 'Balldontlie API'],
+  },
 ];
 
 export default projects;
