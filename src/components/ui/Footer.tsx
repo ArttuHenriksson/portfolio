@@ -1,6 +1,6 @@
 import { BsInstagram } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
-
+import { BsGithub } from 'react-icons/bs';
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
@@ -26,6 +26,14 @@ function Footer() {
             className="hover:text-pink-500 transition-colors duration-300"
           >
             <BsInstagram size={24} />
+          </a>
+          <a
+            href="https://github.com/ArttuHenriksson"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-600 transition-colors duration-300"
+          >
+            <BsGithub size={24} />
           </a>
         </div>
       </div>
