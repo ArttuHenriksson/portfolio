@@ -24,7 +24,6 @@ import grahpql from '../images/techs/graphql.svg';
 import nodejs from '../images/techs/nodejs.svg';
 import tailwind from '../images/techs/tailwind.svg';
 import dynamodb from '../images/techs/DynamoDB.svg';
-import lambda from '../images/techs/lambda.svg';
 import mocha from '../images/techs/mocha.svg';
 import ansible from '../images/techs/ansible.svg';
 
@@ -61,7 +60,6 @@ const techStack: Tech[] = [
   { name: 'NodeJS', logo: nodejs },
   { name: 'Tailwind', logo: tailwind },
   { name: 'DynamoDB', logo: dynamodb },
-  { name: 'Lambda', logo: lambda },
 ];
 
 export default techStack;

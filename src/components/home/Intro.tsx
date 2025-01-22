@@ -47,10 +47,6 @@ function Intro() {
               technologies, giving me a comprehensive understanding of fullstack
               development.
             </p>
-            <p>
-              However, if I had to choose, I’d focus on backend development
-              where my passion truly lies.
-            </p>
 
             <p>Psst.. try to hover over me!</p>
           </div>
