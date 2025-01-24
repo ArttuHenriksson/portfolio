@@ -12,7 +12,7 @@ import typescript from '../images/techs/typescript.svg';
 import neo4j from '../images/techs/neo4j.svg';
 import docker from '../images/techs/docker.svg';
 
-import cSharp from '../images/techs/Csharp.svg';
+// import cSharp from '../images/techs/Csharp.svg';
 import vuejs from '../images/techs/vuejs.svg';
 import redux from '../images/techs/redux.svg';
 import firebase from '../images/techs/firebase.svg';
@@ -47,7 +47,7 @@ const techStack: Tech[] = [
   { name: 'PHP', logo: php },
   { name: 'Javascript', logo: javascript },
   { name: 'Typescript', logo: typescript },
-  { name: 'C#', logo: cSharp },
+  // { name: 'C#', logo: cSharp },
   { name: 'Docker', logo: docker },
   { name: 'Openshift', logo: openshift },
   { name: 'Ansible', logo: ansible },
