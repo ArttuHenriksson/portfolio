@@ -6,7 +6,7 @@ const Terminal = () => {
   const [commandHistory, setCommandHistory] = useState([
     {
       type: 'system',
-      content: 'Type "help" to see available commands.',
+      content: 'Type help to see available commands.',
     },
   ]);
 
@@ -15,7 +15,7 @@ const Terminal = () => {
 
   // Available commands
   const commands = {
-    help: () => 'apuva!',
+    help: () => 'Available commands: hello, clear, help',
     clear: () => {
       setCommandHistory([]);
       console.log('Terminal cleared');
