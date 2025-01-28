@@ -15,13 +15,17 @@ const Terminal = () => {
 
   // Available commands
   const commands = {
-    help: () => 'Available commands: hello, clear, help',
+    help: () => 'Available commands: about, contact, clear',
     clear: () => {
       setCommandHistory([]);
       console.log('Terminal cleared');
       return null;
     },
-    hello: () => `Hello World! 🌍`,
+    about: () =>
+      'Huge sport & tech enthusiast. I love to build things and learn new stuf, constantly improving myself and exploring new tools and frameworks.',
+    contact: () => {
+      return `📧 Email: arttu.henriksson01@gmail.com`;
+    },
   };
 
   // Handle command execution
@@ -88,7 +92,7 @@ const Terminal = () => {
               entry.type === 'error'
                 ? 'text-red-400'
                 : entry.type === 'system'
-                ? 'text-blue-400'
+                ? 'text-white'
                 : entry.type === 'command'
                 ? 'text-blue-500'
                 : 'text-zinc-300'
