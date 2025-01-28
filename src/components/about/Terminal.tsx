@@ -111,12 +111,6 @@ const Terminal = () => {
             className="flex-1 bg-transparent text-zinc-200 placeholder-zinc-700 focus:outline-none focus:placeholder-zinc-400"
             placeholder="Type a command..."
           />
-          <button
-            type="submit"
-            className="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-600 text-zinc-300 font-medium rounded-md transition-colors duration-150 focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
-          >
-            Enter
-          </button>
         </form>
       </div>
     </div>
