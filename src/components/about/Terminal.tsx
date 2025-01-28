@@ -6,8 +6,7 @@ const Terminal = () => {
   const [commandHistory, setCommandHistory] = useState([
     {
       type: 'system',
-      content:
-        'Welcome to my portfolio terminal! Type "help" to see available commands.',
+      content: 'Type "help" to see available commands.',
     },
   ]);
 
@@ -105,12 +104,11 @@ const Terminal = () => {
           className="flex items-center space-x-3 mt-4"
         >
           <span className="text-blue-500">guest@:/$ ❯</span>
-
           <input
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            className="flex-1 bg-transparent text-zinc-200 placeholder-zinc-600 focus:outline-none focus:placeholder-zinc-400"
+            className="flex-1 bg-transparent text-zinc-200 placeholder-zinc-700 focus:outline-none focus:placeholder-zinc-400"
             placeholder="Type a command..."
           />
           <button
