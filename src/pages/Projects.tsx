@@ -1,4 +1,3 @@
-// Projects.tsx
 import React from 'react';
 import ProjectCard from '../components/projects/ProjectCard';
 import projects from '../utils/projects';
