@@ -26,6 +26,7 @@ const Terminal = () => {
     contact: () => {
       return `📧 Email: arttu.henriksson01@gmail.com`;
     },
+    
   };
 
   // Handle command execution
