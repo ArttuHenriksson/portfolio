@@ -15,18 +15,20 @@ const Terminal = () => {
 
   // Available commands
   const commands = {
-    help: () => 'Available commands: about, contact, clear',
+    help: () => 'Available commands: about, contact, clear, flip',
     clear: () => {
       setCommandHistory([]);
       console.log('Terminal cleared');
       return null;
     },
     about: () =>
-      'Huge sport & tech enthusiast. I love to build things and learn new stuf, constantly improving myself and exploring new tools and frameworks.',
+      'I’m a Third-year Business Information Technology Student specializing in Fullstack Development. My passion lies in creating innovative solutions and learning cutting-edge technologies.',
     contact: () => {
       return `📧 Email: arttu.henriksson01@gmail.com`;
     },
-    
+    flip: () => {
+    return  Math.random() > 0.5 ? 'heads' : 'tails';
+    }
   };
 
   // Handle command execution

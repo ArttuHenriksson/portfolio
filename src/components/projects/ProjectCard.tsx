@@ -15,7 +15,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
           <GrGithub className="w-8 h-8" />
         </a>
       </div>
-      <p className="text-zinc-400 mb-6 line-clamp-2">{project.description}</p>
+      <p className="text-zinc-400 mb-6 text-s">{project.description}</p>
       <div className="flex items-center gap-4 mt-auto">
         {project.techs && (
           <div className="flex items-center gap-2">

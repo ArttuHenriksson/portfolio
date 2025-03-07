@@ -13,11 +13,28 @@ function FlipCard() {
               className="w-full h-full object-cover rounded-lg"
             />
           </div>
-          <div className="card__back absolute w-full h-full bg-gradient-to-br  text-white p-8 rounded-lg shadow-lg flex items-center justify-center rotate-y-180 backface-hidden">
-            <ul>
-              <li>23 years old</li>
-              <li>Tech & Sport enthusiast</li>
-            </ul>
+          <div className="card__back absolute w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 text-white p-6 rounded-lg shadow-lg flex flex-col items-center justify-center rotate-y-180 backface-hidden">
+            <h3 className="text-xl font-bold mb-4 border-b pb-2 w-full text-center">Job Journey</h3>
+            <div className="space-y-4 w-full text-left">
+              <div className="border-l-2 border-blue-500 pl-3">
+                <div className="font-semibold">May 2024 - Aug 2024</div>
+                <div>Application Specialist</div>
+                <div className="text-gray-300 text-sm">Telia</div>
+              </div>
+              
+              <div className="border-l-2 border-yellow-500 pl-3">
+                <div className="font-semibold">May 2023 - Aug 2023</div>
+                <div>IT Support</div>
+                <div className="text-gray-300 text-sm">City of Jyväskylä</div>
+              </div>
+              
+              <div className="border-l-2 border-blue-500 pl-3">
+                <div className="font-semibold">Dec 2021 - July 2022</div>
+                <div>IT Support</div>
+                <div className="text-gray-300 text-sm">University of Jyväskylä</div>
+              </div>
+              
+            </div>
           </div>
         </div>
       </div>

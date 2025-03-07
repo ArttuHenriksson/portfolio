@@ -30,7 +30,7 @@ const TechStack: React.FC = () => {
       </div>
 
       {/* Footer Text */}
-      <p className="text-sm md:text-base text-gray-400 mt-6">
+      <p className="text-sm md:text-base text-gray-400 mt-2">
         I'm not afraid to learn new things! 🫡
       </p>
     </div>
